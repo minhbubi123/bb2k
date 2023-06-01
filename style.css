@@ -1,49 +1,127 @@
-body,
-html {
-  width: 100%;
-  height: 100%;
-  font-family: 'Montserrat', sans-serif;
-  background: url(header.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+body {
+	background-color: #0D0D20;
+	margin: 0;
+	font-family: arial;
+}
+
+.form {
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.btn1 {
+  width: auto;
+  height: auto;
+  padding: 12px 15px 12px 15px;
+  background-color: white;
+  border-radius: 25px;
+  border: none;
+  display: inline-block;
+  font-size: 20px;
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.content {
+	height: 85vh;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.font {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	color: white;
+	align-items: center;
 }
 
 h1 {
-  font-size: 3rem;
-  color: #e2dbdb;
+	line-height: 25px;
+	font-size: 25px;
+	font-weight: bolder;
 }
 
-hr {
-    margin: 20px auto;
-    color: #F05F44;
-    border: 3px solid #F05F44;
-    max-width: 65px;
-    opacity: 1;  
+p{
+ width: 420px;
+ font-size: 17px;
+ text-align: center;
 }
 
-.buffer {
-  height: 10rem;
+.container1 {
+	margin-top: 60px;
+	display: flex;
+	gap: 15px;
+	color: white;
 }
 
-.btn {
-  font-weight: 700;
-  border-radius: 300px;
-  text-transform: uppercase;
+.container2 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 30px 30px 40px 30px;
 }
 
-.btn-primary {
-  background-color: #F05F44;
-  border-color: #F05F44;
+.box {
+	border: 1px solid #0D0D20;
+	width: 180px;
+	height: 180px;
+	min-height: 100px;
+	min-width: 100px;
+	border-radius: 20px;
 }
 
-.btn-primary:hover {
-  background-color: #ee4b08;
-  border-color: #ee4b08;
-  border-width: 4px;
+.blue {
+	background-color: #242486;
 }
 
-.btn-xl {
-  padding: 1rem 2rem;
+.gray {
+	background-color: #171727;
+}
+
+.title {
+	font-size: 22px;
+	font-weight: bolder;
+}
+
+.des, .buy {
+	font-size: 15px;
+}
+
+.price {
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+.btn2 {
+	color: black;
+  width: auto;
+  height: auto;
+  padding: 7px 20px 7px 20px;
+  background-color: #a0e0b2;
+  border-radius: 25px;
+  border: none;
+  font-size: 18px;
+  position: absolute;
+  margin-top: -48px;
+  z-index: 1;
+  align-self: center;
+}
+
+.footer {
+	margin-top: 60px;
+	color: #7575a9;
+	font-size: 15px;
+	border: 1px solid #7575a9;
+	padding: 20px 40px 20px 40px;
+	border-radius: 10px;
 }
